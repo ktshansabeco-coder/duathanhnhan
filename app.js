@@ -294,3 +294,9 @@ function showToast(message) {
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 2600);
 }
+const FALLBACK = {
+  phone: "0905876567",
+  zalo: "0905876567",
+  address: "416/2 Nguyễn Trãi, Phường Nghĩa Lộ, TP. Quảng Ngãi",
+  // Các thông tin khác giữ nguyên...
+};
